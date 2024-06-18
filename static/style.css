@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="submit"] {
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+input[type="text"] {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.data {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.data th, .data td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.data th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.data tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data tr:hover {
+    background-color: #e9ecef;
+}
